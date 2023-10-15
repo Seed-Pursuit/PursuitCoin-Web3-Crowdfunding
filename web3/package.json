@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-javascript-starter",
+  "name": "web3",
   "scripts": {
     "build": "npx thirdweb@latest detect",
     "deploy": "npx thirdweb@latest deploy",
@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@thirdweb-dev/contracts": "^3.8.0",
-    "dotenv": "^16.3.1",
     "zksync-web3": "^0.14.3"
   }
 }
