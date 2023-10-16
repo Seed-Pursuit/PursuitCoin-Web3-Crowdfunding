@@ -15,75 +15,61 @@ const DisplayCampaigns = ({ title, isLoading, campaigns }) => {
   // Static campaign data
   const staticCampaigns = [
     {
-      owner: 'abc',
-      title: 'Food Donation Campaign',
-      description: 'Donating food to local charity',
+      owner: 'seedfund1',
+      title: 'Tech Startup: AI Chatbot',
+      description: 'Invest in an AI chatbot startup with cutting-edge technology.',
       amountCollected: 0,
-      target: 2000,
-      deadline: 23,
-      image:
-        'https://img.freepik.com/premium-vector/donation-boxes-with-canned-food-illustration-freshly-prepared-food-packaged-sealed-jars-helping-people-need-poor-people-giving-out-charities-saving-from-hunger-vector-kindness_146957-1033.jpg?w=1380',
+      target: 50000,
+      deadline: 30,
+      image: 'https://plus.unsplash.com/premium_photo-1682023585717-5cb1fad1b141?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
     },
     {
-      owner: 'abc',
-      title: 'Clothes Donation Campaign',
-      description: 'Donating clothes to local charity',
+      owner: 'seedfund2',
+      title: 'Eco-Friendly Packaging Solution',
+      description: 'Invest in a startup creating eco-friendly packaging solutions.',
       amountCollected: 0,
-      target: 500,
-      deadline: 1,
-      image:
-        'https://img.pikbest.com/element_our/20221231/bg/3b4ab970106c9.png!w700wp',
+      target: 75000,
+      deadline: 45,
+      image: 'https://images.unsplash.com/photo-1524638088-758d9961fc6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1536&q=80',
     },
     {
-      owner: 'def',
-      title: 'Education Support Fund',
-      description: 'Providing educational resources to underprivileged children',
-      amountCollected: 350,
-      target: 1000,
-      deadline: 15,
-      image:
-        'https://w7.pngwing.com/pngs/275/188/png-transparent-education-school-icon-children-education-infographic-child-text-thumbnail.png',
+      owner: 'seedfund3',
+      title: 'Food Delivery Innovation',
+      description: 'Invest in a startup revolutionizing food delivery services.',
+      amountCollected: 0,
+      target: 60000,
+      deadline: 60,
+      image: 'https://plus.unsplash.com/premium_photo-1664475382326-3dc5510e4ff9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80',
     },
     {
-      owner: 'ghi',
-      title: 'Clean Water Initiative',
-      description: 'Providing clean and safe drinking water to rural communities',
-      amountCollected: 800,
-      target: 1500,
-      deadline: 10,
-      image:
-        'https://image.freepik.com/free-vector/world-water-day-concept_23-2148544896.jpg',
+      owner: 'seedfund4',
+      title: 'Renewable Energy Tech',
+      description: 'Invest in a startup focused on renewable energy technology.',
+      amountCollected: 0,
+      target: 80000,
+      deadline: 45,
+      image: 'https://plus.unsplash.com/premium_photo-1668078531255-75590ed45a39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
     },
     {
-      owner: 'jkl',
-      title: 'Animal Shelter Renovation',
-      description: 'Renovating an animal shelter to improve living conditions',
-      amountCollected: 2500,
-      target: 3000,
-      deadline: 7,
-      image:
-        'https://image.freepik.com/free-vector/happy-animals-shelter-concept_23-2148564903.jpg',
+      owner: 'seedfund5',
+      title: 'Healthcare Innovation',
+      description: 'Invest in a healthcare startup with groundbreaking innovations.',
+      amountCollected: 0,
+      target: 70000,
+      deadline: 60,
+      image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80',
     },
     {
-      owner: 'mno',
-      title: 'Community Garden Project',
-      description: 'Creating a communal garden for sustainable food production',
-      amountCollected: 1200,
-      target: 2500,
-      deadline: 14,
-      image:
-        'https://image.freepik.com/free-vector/community-garden-planting_74855-5126.jpg',
+      owner: 'seedfund6',
+      title: 'AI-Powered Education',
+      description: 'Invest in an edtech startup using AI to transform education.',
+      amountCollected: 0,
+      target: 55000,
+      deadline: 30,
+      image: 'https://media.istockphoto.com/id/1217739350/photo/brain-inside-the-light-bulb-creative-idea-concept.jpg?s=1024x1024&w=is&k=20&c=EKi2OjUt3QCp3D9YU9LcefS8uaTwKRMTUYCXTEvePNQ=',
     },
-    {
-      owner: 'pqr',
-      title: 'Healthcare Outreach Program',
-      description: 'Providing medical care and vaccinations to remote areas',
-      amountCollected: 600,
-      target: 800,
-      deadline: 5,
-      image:
-        'https://image.freepik.com/free-vector/healthcare-outreach-program_23-2148561232.jpg',
-    }]  
+  ];
+  
 
   return (
     <div>

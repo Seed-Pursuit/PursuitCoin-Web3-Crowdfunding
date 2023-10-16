@@ -4,7 +4,7 @@ import { tagType, thirdweb } from '../assets';
 import { daysLeft } from '../utils';
 
 const FundCard = ({ owner, title, description, target, deadline, amountCollected, image, handleClick }) => {
-  // const remainingDays = daysLeft(deadline);
+  const remainingDays = daysLeft(deadline);
 
   return (
     <div className="sm:w-[288px] w-full rounded-[15px] bg-[#1c1c24] cursor-pointer" onClick={handleClick}>
@@ -29,6 +29,8 @@ const FundCard = ({ owner, title, description, target, deadline, amountCollected
           <div className="flex flex-col">
             <h4 className=" font-semibold text-[14px] text-[#b2b3bd] leading-[22px]">{deadline}</h4>
             <p className="mt-[3px] font-normal text-[12px] leading-[18px] text-[#808191] sm:max-w-[120px] truncate">Days Left</p>
+            {/* <h4 className=" font-semibold text-[14px] text-[#b2b3bd] leading-[22px]">{remainingDays}</h4> */}
+
           </div>
         </div>
 

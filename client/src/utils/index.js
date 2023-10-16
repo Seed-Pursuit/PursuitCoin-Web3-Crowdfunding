@@ -16,3 +16,5 @@ export const daysLeft = (deadline) => {
     img.onload = () => callback(true);
     img.onerror = () => callback(false);
   };
+
+  
