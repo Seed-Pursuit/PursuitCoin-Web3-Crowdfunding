@@ -6,7 +6,7 @@ import { navlinks } from '../constants';
 
 const Icon = ({ name, imgUrl, isActive, disabled, handleClick }) => (
   <div
-    className={`w-12 h-12 rounded-full flex justify-center items-center ${isActive === name ? 'bg-blue-500 text-white' : 'bg-gray-300 hover:bg-blue-300'
+    className={`w-12 h-12 rounded-full flex justify-center items-center ${isActive === name ? 'bg-primary text-white' : 'bg-secondary hover:bg-primary'
       } ${!disabled && 'cursor-pointer'}`}
     onClick={handleClick}
   >
@@ -23,7 +23,7 @@ const Sidebar = () => {
   const [isActive, setIsActive] = useState('dashboard');
 
   return (
-    <div className="flex flex-col justify-between items-center h-screen bg-gray-900 text-white py-8">
+    <div className="p-3 bg-gradient-to-b from-gray-900 to-gray-800 flex flex-col justify-between items-center h-screen bg-primary text-white py-8">
       <Link to="/" className="mb-8">
         <img src={logo} alt="logo" className="w-12 h-12" />
       </Link>
@@ -44,7 +44,7 @@ const Sidebar = () => {
         ))}
       </div>
 
-      <div className="w-12 h-12 bg-gray-700 hover:bg-blue-400 transition-colors rounded-full flex justify-center items-center">
+      <div className="w-12 h-12 bg-secondary hover:bg-tertiary transition-colors rounded-full flex justify-center items-center">
         <img src={sun} alt="sun_icon" className="w-1/2 h-1/2" />
       </div>
     </div>

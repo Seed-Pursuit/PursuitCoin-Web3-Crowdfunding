@@ -30,7 +30,6 @@ const FundCard = ({ owner, title, description, target, deadline, amountCollected
             <h4 className=" font-semibold text-[14px] text-[#b2b3bd] leading-[22px]">{deadline}</h4>
             <p className="mt-[3px] font-normal text-[12px] leading-[18px] text-[#808191] sm:max-w-[120px] truncate">Days Left</p>
             {/* <h4 className=" font-semibold text-[14px] text-[#b2b3bd] leading-[22px]">{remainingDays}</h4> */}
-
           </div>
         </div>
 
