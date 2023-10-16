@@ -24,7 +24,7 @@ const Home = () => {
       <div className="text-center mb-8 flex">
         <h1 className="font-epilogue font-bold text-4xl md:text-5xl mb-2 flex">
         <img src={thirdweb} alt='logo' className='w-30 '/>
-          Welcome to Seed Pursuit
+          Welcome to Pursuit Coin
         </h1>
         <p className="font-epilogue text-lg text-gray-400">
           
